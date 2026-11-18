@@ -1,0 +1,24 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "dahua-rtsp",
+  "revision": 1,
+  "name": "Dahua RTSP-enabled IP cameras",
+  "manufacturer": "Dahua",
+  "model": "RTSP-enabled IP cameras",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "rtsp",
+    "port": 554,
+    "path": "/cam/realmonitor?channel=1&subtype=0",
+    "discovery": {
+      "ports": [
+        554
+      ],
+      "paths": [
+        "/cam/realmonitor?channel=1&subtype=0",
+        "/cam/realmonitor?channel=1&subtype=1"
+      ]
+    }
+  }
+}

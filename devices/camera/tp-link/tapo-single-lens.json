@@ -1,0 +1,24 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "tapo-single-lens",
+  "revision": 1,
+  "name": "TP-Link Tapo single-lens",
+  "manufacturer": "TP-Link",
+  "model": "Tapo single-lens",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "rtsp",
+    "port": 554,
+    "path": "/stream1",
+    "discovery": {
+      "ports": [
+        554
+      ],
+      "paths": [
+        "/stream1",
+        "/stream2"
+      ]
+    }
+  }
+}

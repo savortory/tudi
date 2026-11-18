@@ -1,0 +1,19 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "onvif",
+  "revision": 1,
+  "name": "ONVIF",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "onvif",
+    "port": 80,
+    "path": "/onvif/device_service",
+    "discovery": {
+      "ports": [
+        80, 10080, 8000, 8080, 8388, 8899, 8890, 8999, 5000, 2020, 2000
+      ],
+      "paths": ["/onvif/device_service"]
+    }
+  }
+}

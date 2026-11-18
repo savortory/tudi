@@ -1,0 +1,24 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "ezviz-rtsp",
+  "revision": 1,
+  "name": "EZVIZ RTSP-enabled IP cameras",
+  "manufacturer": "EZVIZ",
+  "model": "RTSP-enabled IP cameras",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "rtsp",
+    "port": 554,
+    "path": "/h264/ch1/main/av_stream",
+    "discovery": {
+      "ports": [
+        554
+      ],
+      "paths": [
+        "/h264/ch1/main/av_stream",
+        "/h264/ch1/sub/av_stream"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "tudi-sense",
+  "revision": 1,
+  "name": "Tudi Sense",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "mjpeg",
+    "port": 80,
+    "path": "/video",
+    "discovery": {
+      "ports": [80],
+      "paths": ["/video"]
+    },
+    "tudiSense": true
+  }
+}

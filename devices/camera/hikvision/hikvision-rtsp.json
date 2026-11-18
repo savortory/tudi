@@ -1,0 +1,24 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "hikvision-rtsp",
+  "revision": 1,
+  "name": "Hikvision RTSP-enabled IP cameras",
+  "manufacturer": "Hikvision",
+  "model": "RTSP-enabled IP cameras",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "rtsp",
+    "port": 554,
+    "path": "/Streaming/Channels/101",
+    "discovery": {
+      "ports": [
+        554
+      ],
+      "paths": [
+        "/Streaming/Channels/101",
+        "/Streaming/Channels/102"
+      ]
+    }
+  }
+}

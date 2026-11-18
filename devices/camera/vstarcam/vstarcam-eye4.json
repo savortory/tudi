@@ -1,0 +1,24 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "vstarcam-eye4",
+  "revision": 1,
+  "name": "VStarcam Eye4",
+  "manufacturer": "VStarcam",
+  "model": "Eye4",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "rtsp",
+    "port": 10554,
+    "path": "/tcp/av0_0",
+    "discovery": {
+      "ports": [
+        10554
+      ],
+      "paths": [
+        "/tcp/av0_0",
+        "/tcp/av0_1"
+      ]
+    }
+  }
+}

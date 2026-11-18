@@ -1,0 +1,24 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "v380-rtsp",
+  "revision": 1,
+  "name": "RTSP-enabled V380 and V380 Pro",
+  "manufacturer": "V380",
+  "model": "RTSP-enabled V380 and V380 Pro",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "rtsp",
+    "port": 554,
+    "path": "/live/ch00_0",
+    "discovery": {
+      "ports": [
+        554
+      ],
+      "paths": [
+        "/live/ch00_0",
+        "/live/ch00_1"
+      ]
+    }
+  }
+}

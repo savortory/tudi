@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "dahua-rtsp",
+      "manufacturer": "Dahua",
+      "model": "RTSP-enabled IP cameras",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/dahua/dahua-rtsp.json",
+      "sha256": "77252b4af6392371278266e90bae68a978d1f5a878d554184a13b45e67ba129d",
+      "verification": "reference-derived"
+    },
+    {
+      "id": "ezviz-rtsp",
+      "manufacturer": "EZVIZ",
+      "model": "RTSP-enabled IP cameras",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/ezviz/ezviz-rtsp.json",
+      "sha256": "739a3664d57e6ac03b75a6dc0c783804a07a0e146dc4f70ad72d1bd9158850f2",
+      "verification": "reference-derived"
+    },
+    {
+      "id": "mjpeg",
+      "manufacturer": "Generic",
+      "model": "Generic MJPEG",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/generic/mjpeg.json",
+      "sha256": "350096be459e82b8811ab271da338b8b7ac67a2cc8b1d849921019d0c38b3ff9",
+      "verification": "existing-recipe"
+    },
+    {
+      "id": "onvif",
+      "manufacturer": "Generic",
+      "model": "ONVIF",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/generic/onvif.json",
+      "sha256": "bcf3e98390ce0e5a4863bef94c2a228078ea70ba67c35f7b4ceb1944d5c6d125",
+      "verification": "existing-recipe"
+    },
+    {
+      "id": "rtsp",
+      "manufacturer": "Generic",
+      "model": "Generic RTSP",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/generic/rtsp.json",
+      "sha256": "376fe0c055de098bd0cb85f85035ae936a9542786bb7b279080a7ad55e55ef09",
+      "verification": "existing-recipe"
+    },
+    {
+      "id": "hikvision-rtsp",
+      "manufacturer": "Hikvision",
+      "model": "RTSP-enabled IP cameras",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/hikvision/hikvision-rtsp.json",
+      "sha256": "e42cef6047a7b552c0b3bf4b33b87ca3e6ef1af7ebe03724ea2aeb53f357b7b0",
+      "verification": "reference-derived"
+    },
+    {
+      "id": "reolink-rtsp",
+      "manufacturer": "Reolink",
+      "model": "RTSP-enabled IP cameras",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/reolink/reolink-rtsp.json",
+      "sha256": "e1adf49d2391841c0547c06019815c7f243ca1f513c5741f50da586630962d91",
+      "verification": "reference-derived"
+    },
+    {
+      "id": "tapo-single-lens",
+      "manufacturer": "TP-Link",
+      "model": "Tapo single-lens",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/tp-link/tapo-single-lens.json",
+      "sha256": "b7ff89b711f63ec940823b32602b6a1cfefcba5f2a3c5116e113567c1ca03c5e",
+      "verification": "reference-derived"
+    },
+    {
+      "id": "tudi-sense",
+      "manufacturer": "Tudi",
+      "model": "Tudi Sense",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/tudi/tudi-sense.json",
+      "sha256": "f0f4697f697a1d4c009f5cf637ceb43c667f9c572a27799e2fd4bb17c4c89c08",
+      "verification": "existing-recipe"
+    },
+    {
+      "id": "tvt-hiview",
+      "manufacturer": "TVT",
+      "model": "Hiview IP cameras",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/tvt/tvt-hiview.json",
+      "sha256": "03fbc04a9341292eae662c59c4c966ef69d4cabf8a0b1a1cdb72bb51de3778d5",
+      "verification": "reference-derived"
+    },
+    {
+      "id": "v380-rtsp",
+      "manufacturer": "V380",
+      "model": "RTSP-enabled V380 and V380 Pro",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/v380/v380-rtsp.json",
+      "sha256": "c9ee5d1dcbde0ec354d16ad1d2d43eae52ed2e20a9b22169d3f05bacb2fb78a8",
+      "verification": "reference-derived"
+    },
+    {
+      "id": "vstarcam-eye4",
+      "manufacturer": "VStarcam",
+      "model": "Eye4",
+      "revision": 1,
+      "schemaVersion": 1,
+      "path": "camera/vstarcam/vstarcam-eye4.json",
+      "sha256": "fc29a8ff01781a521956764c1e341424064c3c46f14f86c40af35fc90dd9df63",
+      "verification": "reference-derived"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "reolink-rtsp",
+  "revision": 1,
+  "name": "Reolink RTSP-enabled IP cameras",
+  "manufacturer": "Reolink",
+  "model": "RTSP-enabled IP cameras",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "rtsp",
+    "port": 554,
+    "path": "/h264Preview_01_main",
+    "discovery": {
+      "ports": [
+        554
+      ],
+      "paths": [
+        "/h264Preview_01_main",
+        "/h264Preview_01_sub"
+      ]
+    }
+  }
+}

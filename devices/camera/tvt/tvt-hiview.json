@@ -1,0 +1,24 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "tvt-hiview",
+  "revision": 1,
+  "name": "TVT Hiview IP cameras",
+  "manufacturer": "TVT",
+  "model": "Hiview IP cameras",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "rtsp",
+    "port": 554,
+    "path": "/profile1",
+    "discovery": {
+      "ports": [
+        554
+      ],
+      "paths": [
+        "/profile1",
+        "/profile2"
+      ]
+    }
+  }
+}

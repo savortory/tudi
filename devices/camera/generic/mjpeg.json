@@ -1,0 +1,17 @@
+{
+  "kind": "tudi.device.recipe",
+  "schemaVersion": 1,
+  "id": "mjpeg",
+  "revision": 1,
+  "name": "Generic MJPEG",
+  "deviceType": "camera",
+  "config": {
+    "protocol": "mjpeg",
+    "port": 80,
+    "path": "/video",
+    "discovery": {
+      "ports": [80],
+      "paths": ["/video"]
+    }
+  }
+}
